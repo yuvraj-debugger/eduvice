@@ -1,0 +1,23 @@
+<?php
+
+namespace $NAMESPACE$;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class $CLASS_NAME$ extends Model
+{
+    use HasFactory;
+    
+    protected $table = '$TABLE_NAME$';
+
+    /**
+     * The attributes that are mass assignable.
+     *
+     * @var string[]
+     */
+    protected $fillable = [
+        $FILLABLE$
+    ];
+    
+}
